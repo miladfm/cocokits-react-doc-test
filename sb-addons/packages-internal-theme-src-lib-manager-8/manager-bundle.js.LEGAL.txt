@@ -10,10 +10,10 @@ lodash/lodash.js:
    * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
    */
 
-react/cjs/react-jsx-runtime.development.js:
+react/cjs/react-jsx-runtime.production.min.js:
   /**
    * @license React
-   * react-jsx-runtime.development.js
+   * react-jsx-runtime.production.min.js
    *
    * Copyright (c) Facebook, Inc. and its affiliates.
    *
@@ -21,10 +21,10 @@ react/cjs/react-jsx-runtime.development.js:
    * LICENSE file in the root directory of this source tree.
    */
 
-react/cjs/react-jsx-runtime.development.js:
+react/cjs/react-jsx-runtime.production.min.js:
   /**
    * @license React
-   * react-jsx-runtime.development.js
+   * react-jsx-runtime.production.min.js
    *
    * Copyright (c) Facebook, Inc. and its affiliates.
    *
