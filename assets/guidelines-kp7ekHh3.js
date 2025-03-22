@@ -1,0 +1,5 @@
+import{ag as t,ah as r}from"./chunk-NUUEMKO5-BBH7bee5.js";import{useMDXComponents as n}from"./index-DOvxcyG1.js";import{M as s}from"./mdx-page-with-theme-section-SbaVoOR1.js";import"./index-qVDZzPEr.js";import"./doc-page-CpN8LlZF.js";import"./react-18-CVVedRj1.js";import"./index-DM35cTar.js";import"./iframe-oQZSGMmm.js";import"../sb-preview/runtime.js";import"./index-D2o5vtt7.js";import"./index-DrFu-skq.js";function i(o){const e={a:"a",li:"li",p:"p",ul:"ul",...n(),...o.components};return t.jsxs(t.Fragment,{children:[t.jsx(r,{title:"Contributing/Guidelines"}),`
+`,t.jsxs(s,{breadcrumb:"Contributing",title:"Guidelines",hideThemeSwitcher:!0,children:[t.jsx(e.p,{children:`We would love for you to contribute to Cocokits and help make it even better than it is today!\r
+As a contributor, here are the guidelines we would like you to follow:`}),t.jsxs(e.ul,{children:[`
+`,t.jsx(e.li,{children:t.jsx(e.a,{href:"./?path=/docs/contributing-commit--docs",children:"Commit Message Guidelines"})}),`
+`]})]})]})}function b(o={}){const{wrapper:e}={...n(),...o.components};return e?t.jsx(e,{...o,children:t.jsx(i,{...o})}):i(o)}export{b as default};
