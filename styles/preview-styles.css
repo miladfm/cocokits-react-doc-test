@@ -222,6 +222,9 @@
 #root > div:first-child > div:nth-child(2) > div:first-child{
   display:none;
 }
+#root > div:first-child > div:nth-child(3) > .sb-bar{
+  display:none;
+}
 
 .sidebar-container > div:first-child > div:first-of-type > div:first-child > div:first-child{
   padding:12px 24px;
