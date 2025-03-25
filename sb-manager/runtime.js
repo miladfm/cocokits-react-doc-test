@@ -5895,6 +5895,10 @@ var qp = (0, Bo.default)(1e3)((e, t) => t[e]), yy = (0, Bo.default)(1e3)((e, t) 
   (e, t) => Qp(t, e).map((o) => o.id)
 ), It = (0, Bo.default)(1e3)((e, t, o) => {
   let i = e[t];
+  // return (i.type === "story" || i.type === "docs" ? [] : i.children).reduce((r, l) => {
+  //   let u = e[l];
+  //   return !u || o && (u.type === "story" || u.type === "docs") || r.push(l, ...It(e, l, o)), r;
+  // }, []);
   return (i.type === "story" || i.type === "docs" ? [] : i.children)?.reduce((r, l) => {
     let u = e[l];
     return !u || o && (u.type === "story" || u.type === "docs") || r.push(l, ...It(e, l, o)), r;
