@@ -1,0 +1,15 @@
+import{ag as e,ah as r}from"./chunk-NUUEMKO5-CwXScIoX.js";import{useMDXComponents as o}from"./index-DOvxcyG1.js";import{M as c}from"./mdx-page-with-theme-section-c7cMjpCP.js";import"./index-qVDZzPEr.js";import"./doc-page-BUpmYpE7.js";import"./react-18-CVVedRj1.js";import"./index-DM35cTar.js";import"./iframe-CsW61chZ.js";import"../sb-preview/runtime.js";import"./index-D2o5vtt7.js";import"./index-DrFu-skq.js";const b=[{id:"branch-naming-convention",name:"Branch Naming"},{id:"examples-of-branch-names",name:"Examples"}];function t(i){const n={code:"code",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",ul:"ul",...o(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Contributing/Branch Naming"}),`
+`,e.jsxs(c,{breadcrumb:"Contributing",title:"Branch Naming Strategy",hideThemeSwitcher:!0,children:[e.jsx(n.p,{children:`This document outlines the branch naming conventions and trunk-based development strategy used in our project.\r
+Adhering to these guidelines ensures consistency, clarity, and efficiency in our development workflow.`}),e.jsx(n.hr,{}),e.jsx(n.h2,{id:"branch-naming-convention",children:"Branch Naming Convention"}),e.jsx(n.p,{children:`All branches must follow a specific naming pattern to make it easy to identify the purpose and scope of\r
+the branch. The format is as follows:`}),e.jsx(n.pre,{children:e.jsx(n.code,{children:`scope/subscope
+`})}),e.jsx(n.h3,{id:"scope",children:"Scope"}),e.jsx(n.p,{children:"The scope indicates the type of work being done. It must be one of the following:"}),e.jsxs(n.ul,{children:[`
+`,e.jsx(n.li,{children:"chore: For tasks that do not directly impact the application's functionality, such as updating dependencies, tooling, or configuration files."}),`
+`,e.jsx(n.li,{children:"feat: For new features or enhancements to existing functionality."}),`
+`,e.jsx(n.li,{children:"fix: For bug fixes or patches."}),`
+`,e.jsx(n.li,{children:"doc: For documentation updates or additions."}),`
+`]}),e.jsx(n.h3,{id:"subscope",children:"Subscope"}),e.jsx(n.p,{children:`The subscope provides additional context about the branch. It typically includes the library or area\r
+of the application being worked on. This part is optional but highly recommended for clarity.`}),e.jsx(n.h2,{id:"examples-of-branch-names",children:"Examples of Branch Names"}),e.jsx(n.p,{children:"Feature for a new button component in the button library:"}),e.jsx(n.pre,{children:e.jsx(n.code,{children:`feat/new-primary-button
+`})}),e.jsx(n.p,{children:"Bug fix for the form-field library:"}),e.jsx(n.pre,{children:e.jsx(n.code,{children:`fix/form-field-validation
+`})}),e.jsx(n.p,{children:"Documentation update for the select component:"}),e.jsx(n.pre,{children:e.jsx(n.code,{children:`doc/select-examples
+`})}),e.jsx(n.p,{children:"Chore task for updating dependencies:"}),e.jsx(n.pre,{children:e.jsx(n.code,{children:`chore/dependency-update
+`})})]})]})}function g(i={}){const{wrapper:n}={...o(),...i.components};return n?e.jsx(n,{...i,children:e.jsx(t,{...i})}):t(i)}export{g as default,b as tocItems};
