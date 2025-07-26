@@ -1,1 +1,0 @@
-import{r as f,e as p}from"./index-C33_amOP.js";function i(r,...t){return f.useMemo(()=>{const s=new Array(t.length).fill(null),n=[];return p.Children.forEach(r,e=>{if(!p.isValidElement(e)||typeof e.type=="string")n.push(e);else{const u=e.type.displayName,o=t.indexOf(u);o>=0?s[o]=e:n.push(e)}}),[...s,n]},[r,...t])}export{i as u};
