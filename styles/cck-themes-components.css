@@ -1880,6 +1880,9 @@
 :where([data-cck-theme-name=cocokits] .cck-tabs__size--lg .cck-tabs__headers-wrapper){
   min-height:44px;
 }
+:where([data-cck-theme-name=cocokits] .test-dummy){
+  opacity:1;
+}
 :where([data-cck-theme-name=cocokits] .cck-tab){
   display:flex;
   background:transparent;
